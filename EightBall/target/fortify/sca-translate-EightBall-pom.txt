@@ -1,0 +1,1 @@
+"-debug" "-version" "-b" "8ball" "-logfile" "/Users/mlacasse/SandBox/EightBall/target/fortify/sca-translate.log" "-java-build-dir" "/Users/mlacasse/SandBox/EightBall/target/classes" "/Users/mlacasse/SandBox/EightBall/pom.xml"

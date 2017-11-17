@@ -1,0 +1,1 @@
+"-debug" "-version" "-b" "8ball" "-scan" "-logfile" "/Users/mlacasse/SandBox/EightBall/target/fortify/sca-scan.log" "-f" "/Users/mlacasse/SandBox/EightBall/target/fortify/EightBall-1.0.fpr" "-build-label" "EightBall-1.0" "-build-project" "EightBall" "-build-version" "1.0"

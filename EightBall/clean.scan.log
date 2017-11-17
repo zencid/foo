@@ -1,0 +1,345 @@
+[2017-11-01 07:38:41.420 Thread-12 FINE]
+------------------------- Runtime Information -------------------------------
+SCA Runtime Properties
+WinForms.CollectionMutationMonitor.Label=WinFormsDataSource
+com.fortify.sca.AddImpliedMethods=true
+com.fortify.sca.AntCompilerClass=com.fortify.dev.ant.SCACompiler
+com.fortify.sca.BuildID=8ball
+com.fortify.sca.BundleControlflowIssues=true
+com.fortify.sca.BytecodePreview=true
+com.fortify.sca.CollectPerformanceData=true
+com.fortify.sca.CustomRulesDir=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/config/customrules
+com.fortify.sca.DaemonCompilers=com.fortify.sca.util.compilers.GppCompiler,com.fortify.sca.util.compilers.GccCompiler,com.fortify.sca.util.compilers.AppleGppCompiler,com.fortify.sca.util.compilers.AppleGccCompiler,com.fortify.sca.util.compilers.MicrosoftCompiler,com.fortify.sca.util.compilers.MicrosoftLinker,com.fortify.sca.util.compilers.LdCompiler,com.fortify.sca.util.compilers.ArUtil,com.fortify.sca.util.compilers.SunCCompiler,com.fortify.sca.util.compilers.SunCppCompiler,com.fortify.sca.util.compilers.IntelCompiler,com.fortify.sca.util.compilers.ExternalCppAdapter,com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.DeadCodeFilter=true
+com.fortify.sca.DeadCodeIgnoreTrivialPredicates=true
+com.fortify.sca.Debug=
+com.fortify.sca.DefaultAnalyzers=semantic:dataflow:controlflow:nullptr:configuration:content:structural:buffer
+com.fortify.sca.DefaultFileTypes=java,rb,jsp,jspx,tag,tagx,tld,sql,cfm,php,phtml,ctp,pks,pkh,pkb,xml,config,Config,settings,properties,dll,exe,winmd,cs,vb,asax,ascx,ashx,asmx,aspx,master,Master,xaml,cshtml,vbhtml,inc,asp,vbscript,js,ini,bas,cls,vbs,frm,ctl,html,htm,xsd,wsdd,xmi,py,cfml,cfc,abap,xhtml,cpx,xcfg,jsff,as,mxml,cbl,cscfg,csdef,wadcfg,appxmanifest,wsdl,plist,bsp,ABAP,BSP,swift,page,component,trigger,scala
+com.fortify.sca.DefaultJarsDirs=default_jars
+com.fortify.sca.DefaultRulesDir=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/config/rules
+com.fortify.sca.DisableDeadCodeElimination=false
+com.fortify.sca.DisableFunctionPointers=false
+com.fortify.sca.DisableGlobals=false
+com.fortify.sca.DisableInferredConstants=false
+com.fortify.sca.EnableInterproceduralConstantResolution=true
+com.fortify.sca.EnableNestedWrappers=true
+com.fortify.sca.EnableStructuralMatchCache=true
+com.fortify.sca.EnableWrapperDetection=true
+com.fortify.sca.FVDLDisableDescriptions=false
+com.fortify.sca.FVDLDisableProgramData=false
+com.fortify.sca.FVDLDisableSnippets=false
+com.fortify.sca.FVDLStylesheet=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/resources/sca/fvdl2html.xsl
+com.fortify.sca.IndirectCallGraphBuilders=WinFormsAdHocFunctionBuilder,VirtualCGBuilder,J2EEIndirectCGBuilder,JNICGBuilder,StoredProcedureResolver,JavaWSCGBuilder,StrutsCGBuilder,DotNetWSCGBuilder,SqlServerSPResolver,ASPCGBuilder,ScriptedCGBuilder,NewJspCustomTagCGBuilder,DotNetCABCGBuilder,StateInjectionCGBuilder,SqlServerSPResolver2,PHPLambdaResolver,JavaWebCGBuilder
+com.fortify.sca.JavaSourcepathSearch=true
+com.fortify.sca.JdkVersion=1.8
+com.fortify.sca.LogFile=/Users/mlacasse/SandBox/EightBall/target/fortify/../../clean.scan.log
+com.fortify.sca.LowSeverityCutoff=1.0
+com.fortify.sca.NoNestedOutTagOutput=org.apache.taglibs.standard.tag.rt.core.RemoveTag,org.apache.taglibs.standard.tag.rt.core.SetTag
+com.fortify.sca.OldVbNetExcludeFileTypes=vb,asax,ascx,ashx,asmx,aspx,xaml,cshtml,vbhtml
+com.fortify.sca.Phase0HigherOrder.Languages=python,ruby,swift
+com.fortify.sca.Phase0HigherOrder.Level=1
+com.fortify.sca.PrintPerformanceDataAfterScan=false
+com.fortify.sca.ProjectRoot=/Users/mlacasse/.fortify
+com.fortify.sca.RequireMapKeys=classrule
+com.fortify.sca.SolverTimeout=15
+com.fortify.sca.SqlLanguage=PLSQL
+com.fortify.sca.SuppressLowSeverity=true
+com.fortify.sca.ThreadCount.NameTableLoading=1
+com.fortify.sca.TypeInferenceFunctionTimeout=60
+com.fortify.sca.TypeInferenceLanguages=javascript,python,ruby
+com.fortify.sca.TypeInferencePhase0Timeout=300
+com.fortify.sca.UnicodeInputFile=true
+com.fortify.sca.UniversalBlacklist=.*yyparse.*
+com.fortify.sca.alias.mode.javascript=fi
+com.fortify.sca.alias.mode.swift=fi
+com.fortify.sca.analyzer.controlflow.EnableLivenessOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableMachineFiltering=false
+com.fortify.sca.analyzer.controlflow.EnableRefRuleOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableTimeOut=true
+com.fortify.sca.clang.AcceptedParams=-arcmt-migrate-report-output+1,-compatibility_version+1,-current_version+1,-cxx-isystem+1,-D+1,-dependency-dot+1,-dependency-file+1,-F+1,-filelist+1,-flts-model+1,-fmodule-implementation-of+1,-framework+1,-gmodules,-idirafter+1,-iframework+1,-imacros+1,-imultilib+1,-include+1,-include-pch+1,-install_name+1,-iprefix+1,-iquote+1,-isystem+1,-ivfsoverlay+1,-iwithprefix+1,-iwithprefixbefore+1,-iwithsysroot+1,-I+1,-MF+1,-MMD,-MQ+1,-MT+1,-mllvm+1,-o+1,--serialize-diagnostics+1,-U+1,-undefined+1,-working-directory+1,-X*+1,-x+1
+com.fortify.sca.clang.SuppressedParams=--analyze,-e+1,-fapplication-extension,-fembed-bitcode,-fembed-bitcode-marker,-l*,-l+1,-L*,-L+1,-module-file-info+1,-mwatchos-version-min,--param+1,-w,-weak_framework+1,-Xanalyzer+1,-Xassembler+1,-Xlinker+1
+com.fortify.sca.compilers.ant=com.fortify.sca.util.compilers.AntAdapter
+com.fortify.sca.compilers.ar=com.fortify.sca.util.compilers.ArUtil
+com.fortify.sca.compilers.armcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.armcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.c++=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.cc=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.clang=com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.compilers.clang++=com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.compilers.clearmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.fortify=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.g++=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.g++-*=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.g++2*=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.g++3*=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.g++4*=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.gcc=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gcc-*=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gcc2*=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gcc3*=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gcc4*=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.gradle=com.fortify.sca.util.compilers.GradleAdapter
+com.fortify.sca.compilers.gradlew=com.fortify.sca.util.compilers.GradleAdapter
+com.fortify.sca.compilers.icc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.icpc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.jam=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.javac=com.fortify.sca.util.compilers.JavacCompiler
+com.fortify.sca.compilers.ld=com.fortify.sca.util.compilers.LdCompiler
+com.fortify.sca.compilers.make=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.mvn=com.fortify.sca.util.compilers.MavenAdapter
+com.fortify.sca.compilers.swift=com.fortify.sca.util.compilers.SwiftCompiler
+com.fortify.sca.compilers.swiftc=com.fortify.sca.util.compilers.SwiftCompiler
+com.fortify.sca.compilers.tcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.tcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.touchless=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.xcodebuild=com.fortify.sca.util.compilers.XcodebuildScraper
+com.fortify.sca.cpfe.441.command=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/private-bin/sca/cpfe441.rfct
+com.fortify.sca.cpfe.command=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/private-bin/sca/cpfe48
+com.fortify.sca.cpfe.file.option=--gen_c_file_name
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.fileextensions.ABAP=ABAP
+com.fortify.sca.fileextensions.BSP=ABAP
+com.fortify.sca.fileextensions.Config=XML
+com.fortify.sca.fileextensions.abap=ABAP
+com.fortify.sca.fileextensions.appxmanifest=XML
+com.fortify.sca.fileextensions.as=ACTIONSCRIPT
+com.fortify.sca.fileextensions.asp=ASP
+com.fortify.sca.fileextensions.bas=VB6
+com.fortify.sca.fileextensions.bsp=ABAP
+com.fortify.sca.fileextensions.cfc=CFML
+com.fortify.sca.fileextensions.cfm=CFML
+com.fortify.sca.fileextensions.cfml=CFML
+com.fortify.sca.fileextensions.cls=VB6
+com.fortify.sca.fileextensions.component=VISUAL_FORCE
+com.fortify.sca.fileextensions.config=XML
+com.fortify.sca.fileextensions.cpx=XML
+com.fortify.sca.fileextensions.cscfg=XML
+com.fortify.sca.fileextensions.csdef=XML
+com.fortify.sca.fileextensions.ctl=VB6
+com.fortify.sca.fileextensions.ctp=PHP
+com.fortify.sca.fileextensions.erb=RUBY_ERB
+com.fortify.sca.fileextensions.faces=JSPX
+com.fortify.sca.fileextensions.frm=VB6
+com.fortify.sca.fileextensions.htm=HTML
+com.fortify.sca.fileextensions.html=HTML
+com.fortify.sca.fileextensions.ini=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.java=JAVA
+com.fortify.sca.fileextensions.js=JAVASCRIPT
+com.fortify.sca.fileextensions.jsff=JSPX
+com.fortify.sca.fileextensions.jsp=JSP
+com.fortify.sca.fileextensions.jspx=JSPX
+com.fortify.sca.fileextensions.mxml=MXML
+com.fortify.sca.fileextensions.page=VISUAL_FORCE
+com.fortify.sca.fileextensions.php=PHP
+com.fortify.sca.fileextensions.phtml=PHP
+com.fortify.sca.fileextensions.pkb=PLSQL
+com.fortify.sca.fileextensions.pkh=PLSQL
+com.fortify.sca.fileextensions.pks=PLSQL
+com.fortify.sca.fileextensions.plist=XML
+com.fortify.sca.fileextensions.properties=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.py=PYTHON
+com.fortify.sca.fileextensions.rb=RUBY
+com.fortify.sca.fileextensions.scala=SCALA
+com.fortify.sca.fileextensions.settings=XML
+com.fortify.sca.fileextensions.sql=SQL
+com.fortify.sca.fileextensions.swift=SWIFT
+com.fortify.sca.fileextensions.tag=JSP
+com.fortify.sca.fileextensions.tagx=JSP
+com.fortify.sca.fileextensions.tld=TLD
+com.fortify.sca.fileextensions.trigger=APEX_TRIGGER
+com.fortify.sca.fileextensions.vbs=VBSCRIPT
+com.fortify.sca.fileextensions.vbscript=VBSCRIPT
+com.fortify.sca.fileextensions.wadcfg=XML
+com.fortify.sca.fileextensions.wsdd=XML
+com.fortify.sca.fileextensions.wsdl=XML
+com.fortify.sca.fileextensions.xcfg=XML
+com.fortify.sca.fileextensions.xhtml=JSPX
+com.fortify.sca.fileextensions.xmi=XML
+com.fortify.sca.fileextensions.xml=XML
+com.fortify.sca.fileextensions.xsd=XML
+com.fortify.sca.jsp.UseNativeParser=true
+com.fortify.sca.parser.python.ignore.module.1=test.badsyntax_future3
+com.fortify.sca.parser.python.ignore.module.2=test.badsyntax_future4
+com.fortify.sca.parser.python.ignore.module.3=test.badsyntax_future5
+com.fortify.sca.parser.python.ignore.module.4=test.badsyntax_future6
+com.fortify.sca.parser.python.ignore.module.5=test.badsyntax_future7
+com.fortify.sca.parser.python.ignore.module.6=test.badsyntax_future8
+com.fortify.sca.parser.python.ignore.module.7=test.badsyntax_future9
+com.fortify.sca.parser.python.ignore.module.8=test.badsyntax_nocaret
+com.fortify.sca.skip.libraries.AngularJS=angular.js,angular.min.js,angular-animate.js,angular-aria.js,angular_1_router.js,angular-cookies.js,angular-message-format.js,angular-messages.js,angular-mocks.js,angular-parse-ext.js,angular-resource.js,angular-route.js,angular-sanitize.js,angular-touch.js
+com.fortify.sca.skip.libraries.ES6=es6-shim.min.js,system-polyfills.js,shims_for_IE.js
+com.fortify.sca.skip.libraries.jQuery=jquery.js,jquery.min.js,jquery-migrate.js,jquery-migrate.min.js,jquery-ui.js,jquery-ui.min.js,jquery.mobile.js,jquery.mobile.min.js,jquery.color.js,jquery.color.min.js,jquery.color.svg-names.js,jquery.color.svg-names.min.js,jquery.color.plus-names.js,jquery.color.plus-names.min.js,jquery.tools.min.js
+com.fortify.sca.skip.libraries.javascript=bootstrap.js,bootstrap.min.js
+com.fortify.sca.xcode.Overrides=GCC_PRECOMPILE_PREFIX_HEADER=NO,RUN_CLANG_STATIC_ANALYZER=NO
+
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=/var/root/.fortify/config/tools
+com.fortify.Core=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core
+com.fortify.InstallationUserName=root
+com.fortify.SCAExecutablePath=
+com.fortify.VS.DefaultFramework.10.0=DotNetFrameworkv40
+com.fortify.VS.DefaultFramework.11.0=DotNetFrameworkv45
+com.fortify.VS.DefaultFramework.12.0=DotNetFrameworkv451
+com.fortify.VS.DefaultFramework.14.0=DotNetFrameworkv451
+com.fortify.VS.Frameworks.DotNetFrameworkv11.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv1.1","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv11.VSProjectVersionCode=1;
+com.fortify.VS.Frameworks.DotNetFrameworkv20.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv2.0","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv20.VSProjectVersionCode=131072
+com.fortify.VS.Frameworks.DotNetFrameworkv30.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv30.VSProjectVersionCode=196608
+com.fortify.VS.Frameworks.DotNetFrameworkv35.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv35.VSProjectVersionCode=196613
+com.fortify.VS.Frameworks.DotNetFrameworkv40.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.VSProjectVersionCode=262144
+com.fortify.VS.Frameworks.DotNetFrameworkv45.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKPaths="Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0A\bin\";"Microsoft SDKs\Windows\v8.0\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.VSProjectVersionCode=262149
+com.fortify.VS.Frameworks.DotNetFrameworkv451.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKPaths="Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1A\bin\";"Microsoft SDKs\Windows\v8.1\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.VSProjectVersionCode=451
+com.fortify.VS.Frameworks.default.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.1","InstallationFolder","\bin"
+com.fortify.VS.Frameworks.default.VSProjectVersionCode=-1
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=/var/root/.fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+com.fortify.InstallRoot=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10
+com.fortify.TotalPhysicalMemory=8589934592
+com.fortify.sca.JVMArgs=-XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx6442450944 -Xss16M
+com.fortify.sca.PID=34295
+com.fortify.sca.ProjectRoot=/Users/mlacasse/.fortify
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.env.exesearchpath=/Users/mlacasse/SandBox/apache-maven-3.3.9/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_16.10/bin
+file.encoding=UTF-8
+file.encoding.pkg=sun.io
+file.separator=/
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+gopherProxySet=false
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+java.class.path=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/lib/exe/sca-exe.jar
+java.class.version=52.0
+java.endorsed.dirs=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/endorsed
+java.ext.dirs=/Users/mlacasse/Library/Java/Extensions:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.home=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre
+java.io.tmpdir=/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/
+java.library.path=/Users/mlacasse/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.8.0_121-b13
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.8
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.8.0_121
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+java.vm.version=25.121-b13
+line.separator=
+
+os.arch=x86_64
+os.name=Mac OS X
+os.version=10.12.6
+path.separator=:
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+stderr.isatty=false
+stdout.isatty=false
+sun.arch.data.model=64
+sun.boot.class.path=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/resources.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/rt.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/sunrsasign.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jsse.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jce.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/charsets.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jfr.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/classes
+sun.boot.library.path=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib
+sun.cpu.endian=little
+sun.cpu.isalist=
+sun.io.unicode.encoding=UnicodeBig
+sun.java.command=sourceanalyzer -Djava.awt.headless=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Dcom.fortify.sca.env.exesearchpath=/Users/mlacasse/SandBox/apache-maven-3.3.9/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_16.10/bin -Dcom.fortify.sca.ProjectRoot=/Users/mlacasse/.fortify -Dstdout.isatty=false -Dstderr.isatty=false -Dcom.fortify.sca.PID=34295 -Xmx6442450944 -Dcom.fortify.TotalPhysicalMemory=8589934592 -Xss16M -Dcom.fortify.sca.JVMArgs=-XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx6442450944 -Xss16M -Djava.class.path=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/lib/exe/sca-exe.jar @/Users/mlacasse/SandBox/EightBall/target/fortify/sca-clean-EightBall.txt
+sun.jnu.encoding=UTF-8
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=unknown
+user.country=US
+user.dir=/Users/mlacasse/SandBox/EightBall
+user.home=/var/root
+user.language=en
+user.name=root
+user.timezone=America/New_York
+
+VM Info
+OperatingSystemMXBean: Mac OS X
+  Arch: x86_64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 10744393728
+  FreePhysicalMemorySize: 1239785472
+  FreeSwapSpaceSize: 825229312
+  MaxFileDescriptorCount: 10240
+  OpenFileDescriptorCount: 72
+  ProcessCpuLoad: 0.0
+  ProcessCpuTime: 864305000
+  SystemCpuLoad: 0.0
+  SystemLoadAverage: 2.74560546875
+  TotalPhysicalMemorySize: 8589934592
+  TotalSwapSpaceSize: 3221225472
+  Version: 10.12.6
+RuntimeMXBean: 34295@MLaCasseMac.local
+  BootClassPath: /Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/resources.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/rt.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/sunrsasign.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jsse.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jce.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/charsets.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jfr.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/classes
+  BootClassPathSupported: true
+  ClassPath: /Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/lib/exe/sca-exe.jar
+  LibraryPath: /Users/mlacasse/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.8
+  StartTime: 1509536320826
+  Uptime: 652
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 25.121-b13
+-----------------------------------------------------------------------------
+[2017-11-01 07:38:41.501 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-12 INFO]
+HPE Security Fortify Static Code Analyzer 17.10.0156 (using JRE 1.8.0_121)
+[2017-11-01 07:38:41.501 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-12 INFO]
+Args:
+["-debug", "-version", "-b", "8ball", "-clean", "-logfile", "/Users/mlacasse/SandBox/EightBall/target/fortify/../../clean.scan.log"]
+[2017-11-01 07:38:41.501 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-12 INFO]
+VM Args:
+"-XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx6442450944 -Xss16M"
+[2017-11-01 07:38:41.560 com.fortify.sca.cmd.SCAConfiguration.initialize() Thread-12 FINE]
+Enabling code generation: Data binding
+[2017-11-01 07:38:41.562 com.fortify.sca.cmd.SCAConfiguration.initialize() Thread-12 FINE]
+Enabling code generation: Event loops
+[2017-11-01 07:38:41.563 com.fortify.sca.cmd.SCAConfiguration.initialize() Thread-12 FINE]
+Enabling change notification transformer.
+[2017-11-01 07:38:41.638 com.fortify.sca.metadata.BuildSession.acquireLock() Thread-12 FINE]
+Acquiring lock...
+[2017-11-01 07:38:41.640 com.fortify.sca.metadata.BuildSession.acquireLock() Thread-12 FINE]
+Acquiring lock [DONE]
+[2017-11-01 07:38:41.640 com.fortify.sca.metadata.BuildSession.load_() Thread-12 FINE]
+Reading primary session file: "/Users/mlacasse/.fortify/sca17.1/build/8ball.scasession"
+[2017-11-01 07:38:41.640 com.fortify.sca.metadata.BuildSession.read() Thread-12 FINE]
+Unmarshalling XML...
+[2017-11-01 07:38:41.793 com.fortify.sca.metadata.BuildSession.read() Thread-12 FINE]
+Unmarshalling XML [DONE]
+[2017-11-01 07:38:41.793 com.fortify.sca.metadata.BuildSession.read() Thread-12 FINE]
+Converting from Castor objects...
+[2017-11-01 07:38:41.803 com.fortify.sca.metadata.BuildSession.read() Thread-12 FINE]
+Converting from Castor objects [DONE]
+[2017-11-01 07:38:41.803 com.fortify.sca.metadata.BuildSession.load_() Thread-12 FINE]
+Reading primary session file [DONE]
+[2017-11-01 07:38:41.803 com.fortify.sca.metadata.BuildSession.releaseLock() Thread-12 FINE]
+Releasing lock...
+[2017-11-01 07:38:41.804 com.fortify.sca.metadata.BuildSession.releaseLock() Thread-12 FINE]
+Releasing lock [DONE]
+[2017-11-01 07:38:41.807 com.fortify.sca.metadata.BuildSession.clean() Thread-12 INFO 1460]
+Deleted intermediate files for Build ID 8ball

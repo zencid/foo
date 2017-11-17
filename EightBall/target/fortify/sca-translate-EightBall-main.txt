@@ -1,0 +1,1 @@
+"-debug" "-version" "-b" "8ball" "-logfile" "/Users/mlacasse/SandBox/EightBall/target/fortify/sca-translate.log" "-java-build-dir" "/Users/mlacasse/SandBox/EightBall/target/classes" "-cp" "/Users/mlacasse/Sandbox/junit/junit/4.12/junit-4.12.jar" "-cp" "/Users/mlacasse/Sandbox/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" "/Users/mlacasse/SandBox/EightBall/src/main/java"

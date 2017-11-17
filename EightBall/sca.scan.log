@@ -1,0 +1,938 @@
+[2017-11-01 07:37:15.401 Thread-12 FINE]
+------------------------- Runtime Information -------------------------------
+SCA Runtime Properties
+WinForms.CollectionMutationMonitor.Label=WinFormsDataSource
+com.fortify.sca.AddImpliedMethods=true
+com.fortify.sca.AntCompilerClass=com.fortify.dev.ant.SCACompiler
+com.fortify.sca.BuildID=8ball
+com.fortify.sca.BuildLabel=EightBall-1.0
+com.fortify.sca.BuildProject=EightBall
+com.fortify.sca.BuildVersion=1.0
+com.fortify.sca.BundleControlflowIssues=true
+com.fortify.sca.BytecodePreview=true
+com.fortify.sca.CollectPerformanceData=true
+com.fortify.sca.CustomRulesDir=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/config/customrules
+com.fortify.sca.DaemonCompilers=com.fortify.sca.util.compilers.GppCompiler,com.fortify.sca.util.compilers.GccCompiler,com.fortify.sca.util.compilers.AppleGppCompiler,com.fortify.sca.util.compilers.AppleGccCompiler,com.fortify.sca.util.compilers.MicrosoftCompiler,com.fortify.sca.util.compilers.MicrosoftLinker,com.fortify.sca.util.compilers.LdCompiler,com.fortify.sca.util.compilers.ArUtil,com.fortify.sca.util.compilers.SunCCompiler,com.fortify.sca.util.compilers.SunCppCompiler,com.fortify.sca.util.compilers.IntelCompiler,com.fortify.sca.util.compilers.ExternalCppAdapter,com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.DeadCodeFilter=true
+com.fortify.sca.DeadCodeIgnoreTrivialPredicates=true
+com.fortify.sca.Debug=
+com.fortify.sca.DefaultAnalyzers=semantic:dataflow:controlflow:nullptr:configuration:content:structural:buffer
+com.fortify.sca.DefaultFileTypes=java,rb,jsp,jspx,tag,tagx,tld,sql,cfm,php,phtml,ctp,pks,pkh,pkb,xml,config,Config,settings,properties,dll,exe,winmd,cs,vb,asax,ascx,ashx,asmx,aspx,master,Master,xaml,cshtml,vbhtml,inc,asp,vbscript,js,ini,bas,cls,vbs,frm,ctl,html,htm,xsd,wsdd,xmi,py,cfml,cfc,abap,xhtml,cpx,xcfg,jsff,as,mxml,cbl,cscfg,csdef,wadcfg,appxmanifest,wsdl,plist,bsp,ABAP,BSP,swift,page,component,trigger,scala
+com.fortify.sca.DefaultJarsDirs=default_jars
+com.fortify.sca.DefaultRulesDir=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/config/rules
+com.fortify.sca.DisableDeadCodeElimination=false
+com.fortify.sca.DisableFunctionPointers=false
+com.fortify.sca.DisableGlobals=false
+com.fortify.sca.DisableInferredConstants=false
+com.fortify.sca.EnableInterproceduralConstantResolution=true
+com.fortify.sca.EnableNestedWrappers=true
+com.fortify.sca.EnableStructuralMatchCache=true
+com.fortify.sca.EnableWrapperDetection=true
+com.fortify.sca.FVDLDisableDescriptions=false
+com.fortify.sca.FVDLDisableProgramData=false
+com.fortify.sca.FVDLDisableSnippets=false
+com.fortify.sca.FVDLStylesheet=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/resources/sca/fvdl2html.xsl
+com.fortify.sca.IndirectCallGraphBuilders=WinFormsAdHocFunctionBuilder,VirtualCGBuilder,J2EEIndirectCGBuilder,JNICGBuilder,StoredProcedureResolver,JavaWSCGBuilder,StrutsCGBuilder,DotNetWSCGBuilder,SqlServerSPResolver,ASPCGBuilder,ScriptedCGBuilder,NewJspCustomTagCGBuilder,DotNetCABCGBuilder,StateInjectionCGBuilder,SqlServerSPResolver2,PHPLambdaResolver,JavaWebCGBuilder
+com.fortify.sca.JavaSourcepathSearch=true
+com.fortify.sca.JdkVersion=1.8
+com.fortify.sca.LogFile=/Users/mlacasse/SandBox/EightBall/target/fortify/../../sca.scan.log
+com.fortify.sca.LowSeverityCutoff=1.0
+com.fortify.sca.NoNestedOutTagOutput=org.apache.taglibs.standard.tag.rt.core.RemoveTag,org.apache.taglibs.standard.tag.rt.core.SetTag
+com.fortify.sca.OldVbNetExcludeFileTypes=vb,asax,ascx,ashx,asmx,aspx,xaml,cshtml,vbhtml
+com.fortify.sca.Phase0HigherOrder.Languages=python,ruby,swift
+com.fortify.sca.Phase0HigherOrder.Level=1
+com.fortify.sca.PrintPerformanceDataAfterScan=false
+com.fortify.sca.ProjectRoot=/Users/mlacasse/.fortify
+com.fortify.sca.RequireMapKeys=classrule
+com.fortify.sca.ResultsFile=/Users/mlacasse/SandBox/EightBall/target/fortify/EightBall-1.0.fpr
+com.fortify.sca.SolverTimeout=15
+com.fortify.sca.SqlLanguage=PLSQL
+com.fortify.sca.SuppressLowSeverity=true
+com.fortify.sca.ThreadCount.NameTableLoading=1
+com.fortify.sca.TypeInferenceFunctionTimeout=60
+com.fortify.sca.TypeInferenceLanguages=javascript,python,ruby
+com.fortify.sca.TypeInferencePhase0Timeout=300
+com.fortify.sca.UnicodeInputFile=true
+com.fortify.sca.UniversalBlacklist=.*yyparse.*
+com.fortify.sca.alias.mode.javascript=fi
+com.fortify.sca.alias.mode.swift=fi
+com.fortify.sca.analyzer.controlflow.EnableLivenessOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableMachineFiltering=false
+com.fortify.sca.analyzer.controlflow.EnableRefRuleOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableTimeOut=true
+com.fortify.sca.clang.AcceptedParams=-arcmt-migrate-report-output+1,-compatibility_version+1,-current_version+1,-cxx-isystem+1,-D+1,-dependency-dot+1,-dependency-file+1,-F+1,-filelist+1,-flts-model+1,-fmodule-implementation-of+1,-framework+1,-gmodules,-idirafter+1,-iframework+1,-imacros+1,-imultilib+1,-include+1,-include-pch+1,-install_name+1,-iprefix+1,-iquote+1,-isystem+1,-ivfsoverlay+1,-iwithprefix+1,-iwithprefixbefore+1,-iwithsysroot+1,-I+1,-MF+1,-MMD,-MQ+1,-MT+1,-mllvm+1,-o+1,--serialize-diagnostics+1,-U+1,-undefined+1,-working-directory+1,-X*+1,-x+1
+com.fortify.sca.clang.SuppressedParams=--analyze,-e+1,-fapplication-extension,-fembed-bitcode,-fembed-bitcode-marker,-l*,-l+1,-L*,-L+1,-module-file-info+1,-mwatchos-version-min,--param+1,-w,-weak_framework+1,-Xanalyzer+1,-Xassembler+1,-Xlinker+1
+com.fortify.sca.compilers.ant=com.fortify.sca.util.compilers.AntAdapter
+com.fortify.sca.compilers.ar=com.fortify.sca.util.compilers.ArUtil
+com.fortify.sca.compilers.armcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.armcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.c++=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.cc=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.clang=com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.compilers.clang++=com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.compilers.clearmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.fortify=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.g++=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.g++-*=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.g++2*=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.g++3*=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.g++4*=com.fortify.sca.util.compilers.AppleGppCompiler
+com.fortify.sca.compilers.gcc=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gcc-*=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gcc2*=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gcc3*=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gcc4*=com.fortify.sca.util.compilers.AppleGccCompiler
+com.fortify.sca.compilers.gmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.gradle=com.fortify.sca.util.compilers.GradleAdapter
+com.fortify.sca.compilers.gradlew=com.fortify.sca.util.compilers.GradleAdapter
+com.fortify.sca.compilers.icc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.icpc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.jam=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.javac=com.fortify.sca.util.compilers.JavacCompiler
+com.fortify.sca.compilers.ld=com.fortify.sca.util.compilers.LdCompiler
+com.fortify.sca.compilers.make=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.mvn=com.fortify.sca.util.compilers.MavenAdapter
+com.fortify.sca.compilers.swift=com.fortify.sca.util.compilers.SwiftCompiler
+com.fortify.sca.compilers.swiftc=com.fortify.sca.util.compilers.SwiftCompiler
+com.fortify.sca.compilers.tcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.tcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.touchless=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.xcodebuild=com.fortify.sca.util.compilers.XcodebuildScraper
+com.fortify.sca.cpfe.441.command=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/private-bin/sca/cpfe441.rfct
+com.fortify.sca.cpfe.command=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/private-bin/sca/cpfe48
+com.fortify.sca.cpfe.file.option=--gen_c_file_name
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.fileextensions.ABAP=ABAP
+com.fortify.sca.fileextensions.BSP=ABAP
+com.fortify.sca.fileextensions.Config=XML
+com.fortify.sca.fileextensions.abap=ABAP
+com.fortify.sca.fileextensions.appxmanifest=XML
+com.fortify.sca.fileextensions.as=ACTIONSCRIPT
+com.fortify.sca.fileextensions.asp=ASP
+com.fortify.sca.fileextensions.bas=VB6
+com.fortify.sca.fileextensions.bsp=ABAP
+com.fortify.sca.fileextensions.cfc=CFML
+com.fortify.sca.fileextensions.cfm=CFML
+com.fortify.sca.fileextensions.cfml=CFML
+com.fortify.sca.fileextensions.cls=VB6
+com.fortify.sca.fileextensions.component=VISUAL_FORCE
+com.fortify.sca.fileextensions.config=XML
+com.fortify.sca.fileextensions.cpx=XML
+com.fortify.sca.fileextensions.cscfg=XML
+com.fortify.sca.fileextensions.csdef=XML
+com.fortify.sca.fileextensions.ctl=VB6
+com.fortify.sca.fileextensions.ctp=PHP
+com.fortify.sca.fileextensions.erb=RUBY_ERB
+com.fortify.sca.fileextensions.faces=JSPX
+com.fortify.sca.fileextensions.frm=VB6
+com.fortify.sca.fileextensions.htm=HTML
+com.fortify.sca.fileextensions.html=HTML
+com.fortify.sca.fileextensions.ini=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.java=JAVA
+com.fortify.sca.fileextensions.js=JAVASCRIPT
+com.fortify.sca.fileextensions.jsff=JSPX
+com.fortify.sca.fileextensions.jsp=JSP
+com.fortify.sca.fileextensions.jspx=JSPX
+com.fortify.sca.fileextensions.mxml=MXML
+com.fortify.sca.fileextensions.page=VISUAL_FORCE
+com.fortify.sca.fileextensions.php=PHP
+com.fortify.sca.fileextensions.phtml=PHP
+com.fortify.sca.fileextensions.pkb=PLSQL
+com.fortify.sca.fileextensions.pkh=PLSQL
+com.fortify.sca.fileextensions.pks=PLSQL
+com.fortify.sca.fileextensions.plist=XML
+com.fortify.sca.fileextensions.properties=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.py=PYTHON
+com.fortify.sca.fileextensions.rb=RUBY
+com.fortify.sca.fileextensions.scala=SCALA
+com.fortify.sca.fileextensions.settings=XML
+com.fortify.sca.fileextensions.sql=SQL
+com.fortify.sca.fileextensions.swift=SWIFT
+com.fortify.sca.fileextensions.tag=JSP
+com.fortify.sca.fileextensions.tagx=JSP
+com.fortify.sca.fileextensions.tld=TLD
+com.fortify.sca.fileextensions.trigger=APEX_TRIGGER
+com.fortify.sca.fileextensions.vbs=VBSCRIPT
+com.fortify.sca.fileextensions.vbscript=VBSCRIPT
+com.fortify.sca.fileextensions.wadcfg=XML
+com.fortify.sca.fileextensions.wsdd=XML
+com.fortify.sca.fileextensions.wsdl=XML
+com.fortify.sca.fileextensions.xcfg=XML
+com.fortify.sca.fileextensions.xhtml=JSPX
+com.fortify.sca.fileextensions.xmi=XML
+com.fortify.sca.fileextensions.xml=XML
+com.fortify.sca.fileextensions.xsd=XML
+com.fortify.sca.jsp.UseNativeParser=true
+com.fortify.sca.parser.python.ignore.module.1=test.badsyntax_future3
+com.fortify.sca.parser.python.ignore.module.2=test.badsyntax_future4
+com.fortify.sca.parser.python.ignore.module.3=test.badsyntax_future5
+com.fortify.sca.parser.python.ignore.module.4=test.badsyntax_future6
+com.fortify.sca.parser.python.ignore.module.5=test.badsyntax_future7
+com.fortify.sca.parser.python.ignore.module.6=test.badsyntax_future8
+com.fortify.sca.parser.python.ignore.module.7=test.badsyntax_future9
+com.fortify.sca.parser.python.ignore.module.8=test.badsyntax_nocaret
+com.fortify.sca.skip.libraries.AngularJS=angular.js,angular.min.js,angular-animate.js,angular-aria.js,angular_1_router.js,angular-cookies.js,angular-message-format.js,angular-messages.js,angular-mocks.js,angular-parse-ext.js,angular-resource.js,angular-route.js,angular-sanitize.js,angular-touch.js
+com.fortify.sca.skip.libraries.ES6=es6-shim.min.js,system-polyfills.js,shims_for_IE.js
+com.fortify.sca.skip.libraries.jQuery=jquery.js,jquery.min.js,jquery-migrate.js,jquery-migrate.min.js,jquery-ui.js,jquery-ui.min.js,jquery.mobile.js,jquery.mobile.min.js,jquery.color.js,jquery.color.min.js,jquery.color.svg-names.js,jquery.color.svg-names.min.js,jquery.color.plus-names.js,jquery.color.plus-names.min.js,jquery.tools.min.js
+com.fortify.sca.skip.libraries.javascript=bootstrap.js,bootstrap.min.js
+com.fortify.sca.xcode.Overrides=GCC_PRECOMPILE_PREFIX_HEADER=NO,RUN_CLANG_STATIC_ANALYZER=NO
+
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=/var/root/.fortify/config/tools
+com.fortify.Core=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core
+com.fortify.InstallationUserName=root
+com.fortify.SCAExecutablePath=
+com.fortify.VS.DefaultFramework.10.0=DotNetFrameworkv40
+com.fortify.VS.DefaultFramework.11.0=DotNetFrameworkv45
+com.fortify.VS.DefaultFramework.12.0=DotNetFrameworkv451
+com.fortify.VS.DefaultFramework.14.0=DotNetFrameworkv451
+com.fortify.VS.Frameworks.DotNetFrameworkv11.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv1.1","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv11.VSProjectVersionCode=1;
+com.fortify.VS.Frameworks.DotNetFrameworkv20.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv2.0","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv20.VSProjectVersionCode=131072
+com.fortify.VS.Frameworks.DotNetFrameworkv30.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv30.VSProjectVersionCode=196608
+com.fortify.VS.Frameworks.DotNetFrameworkv35.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv35.VSProjectVersionCode=196613
+com.fortify.VS.Frameworks.DotNetFrameworkv40.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.VSProjectVersionCode=262144
+com.fortify.VS.Frameworks.DotNetFrameworkv45.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKPaths="Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0A\bin\";"Microsoft SDKs\Windows\v8.0\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.VSProjectVersionCode=262149
+com.fortify.VS.Frameworks.DotNetFrameworkv451.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKPaths="Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1A\bin\";"Microsoft SDKs\Windows\v8.1\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.VSProjectVersionCode=451
+com.fortify.VS.Frameworks.default.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.1","InstallationFolder","\bin"
+com.fortify.VS.Frameworks.default.VSProjectVersionCode=-1
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=/var/root/.fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+com.fortify.InstallRoot=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10
+com.fortify.TotalPhysicalMemory=8589934592
+com.fortify.sca.JVMArgs=-XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx6442450944 -Xss16M
+com.fortify.sca.PID=34271
+com.fortify.sca.ProjectRoot=/Users/mlacasse/.fortify
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.env.exesearchpath=/Users/mlacasse/SandBox/apache-maven-3.3.9/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_16.10/bin
+file.encoding=UTF-8
+file.encoding.pkg=sun.io
+file.separator=/
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+gopherProxySet=false
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+java.class.path=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/lib/exe/sca-exe.jar
+java.class.version=52.0
+java.endorsed.dirs=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/endorsed
+java.ext.dirs=/Users/mlacasse/Library/Java/Extensions:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.home=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre
+java.io.tmpdir=/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/
+java.library.path=/Users/mlacasse/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.8.0_121-b13
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.8
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.8.0_121
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+java.vm.version=25.121-b13
+line.separator=
+
+os.arch=x86_64
+os.name=Mac OS X
+os.version=10.12.6
+path.separator=:
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+stderr.isatty=false
+stdout.isatty=false
+sun.arch.data.model=64
+sun.boot.class.path=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/resources.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/rt.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/sunrsasign.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jsse.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jce.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/charsets.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jfr.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/classes
+sun.boot.library.path=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib
+sun.cpu.endian=little
+sun.cpu.isalist=
+sun.io.unicode.encoding=UnicodeBig
+sun.java.command=sourceanalyzer -Djava.awt.headless=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Dcom.fortify.sca.env.exesearchpath=/Users/mlacasse/SandBox/apache-maven-3.3.9/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_17.10/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/HP_Fortify/HP_Fortify_SCA_and_Apps_16.10/bin -Dcom.fortify.sca.ProjectRoot=/Users/mlacasse/.fortify -Dstdout.isatty=false -Dstderr.isatty=false -Dcom.fortify.sca.PID=34271 -Xmx6442450944 -Dcom.fortify.TotalPhysicalMemory=8589934592 -Xss16M -Dcom.fortify.sca.JVMArgs=-XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx6442450944 -Xss16M -Djava.class.path=/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/lib/exe/sca-exe.jar @/Users/mlacasse/SandBox/EightBall/target/fortify/sca-scan-EightBall.txt
+sun.jnu.encoding=UTF-8
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=unknown
+user.country=US
+user.dir=/Users/mlacasse/SandBox/EightBall
+user.home=/var/root
+user.language=en
+user.name=root
+user.timezone=America/New_York
+
+VM Info
+OperatingSystemMXBean: Mac OS X
+  Arch: x86_64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 10743857152
+  FreePhysicalMemorySize: 1089323008
+  FreeSwapSpaceSize: 825491456
+  MaxFileDescriptorCount: 10240
+  OpenFileDescriptorCount: 72
+  ProcessCpuLoad: 0.0
+  ProcessCpuTime: 952854000
+  SystemCpuLoad: 0.0
+  SystemLoadAverage: 2.6865234375
+  TotalPhysicalMemorySize: 8589934592
+  TotalSwapSpaceSize: 3221225472
+  Version: 10.12.6
+RuntimeMXBean: 34271@MLaCasseMac.local
+  BootClassPath: /Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/resources.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/rt.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/sunrsasign.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jsse.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jce.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/charsets.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/lib/jfr.jar:/Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/jre/classes
+  BootClassPathSupported: true
+  ClassPath: /Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/lib/exe/sca-exe.jar
+  LibraryPath: /Users/mlacasse/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.8
+  StartTime: 1509536234943
+  Uptime: 515
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 25.121-b13
+-----------------------------------------------------------------------------
+[2017-11-01 07:37:15.493 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-12 INFO]
+HPE Security Fortify Static Code Analyzer 17.10.0156 (using JRE 1.8.0_121)
+[2017-11-01 07:37:15.493 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-12 INFO]
+Args:
+["-debug", "-version", "-b", "8ball", "-scan", "-logfile", "/Users/mlacasse/SandBox/EightBall/target/fortify/../../sca.scan.log", "-f", "/Users/mlacasse/SandBox/EightBall/target/fortify/EightBall-1.0.fpr", "-build-label", "EightBall-1.0", "-build-project", "EightBall", "-build-version", "1.0"]
+[2017-11-01 07:37:15.493 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-12 INFO]
+VM Args:
+"-XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx6442450944 -Xss16M"
+[2017-11-01 07:37:15.560 com.fortify.sca.cmd.SCAConfiguration.initialize() Thread-12 FINE]
+Enabling code generation: Data binding
+[2017-11-01 07:37:15.561 com.fortify.sca.cmd.SCAConfiguration.initialize() Thread-12 FINE]
+Enabling code generation: Event loops
+[2017-11-01 07:37:15.563 com.fortify.sca.cmd.SCAConfiguration.initialize() Thread-12 FINE]
+Enabling change notification transformer.
+[2017-11-01 07:37:15.822 com.fortify.sca.frontend.ParsingFrontEnd.resolve() Thread-12 FINE]
+Resolution stage 1.1
+[2017-11-01 07:37:15.823 com.fortify.sca.frontend.FrontEndSession.runFrontEnd() Thread-12 INFO]
+Front End complete
+[2017-11-01 07:37:15.825 com.fortify.sca.metadata.BuildSession.storeIncrement() Thread-12 FINE]
+Nothing to store.
+[2017-11-01 07:37:15.825 com.fortify.sca.metadata.BuildSession.acquireLock() Thread-12 FINE]
+Acquiring lock...
+[2017-11-01 07:37:15.826 com.fortify.sca.metadata.BuildSession.acquireLock() Thread-12 FINE]
+Acquiring lock [DONE]
+[2017-11-01 07:37:15.827 com.fortify.sca.metadata.BuildSession.load_() Thread-12 FINE]
+Reading primary session file: "/Users/mlacasse/.fortify/sca17.1/build/8ball.scasession"
+[2017-11-01 07:37:15.827 com.fortify.sca.metadata.BuildSession.read() Thread-12 FINE]
+Unmarshalling XML...
+[2017-11-01 07:37:15.954 com.fortify.sca.metadata.BuildSession.read() Thread-12 FINE]
+Unmarshalling XML [DONE]
+[2017-11-01 07:37:15.955 com.fortify.sca.metadata.BuildSession.read() Thread-12 FINE]
+Converting from Castor objects...
+[2017-11-01 07:37:15.961 com.fortify.sca.metadata.BuildSession.read() Thread-12 FINE]
+Converting from Castor objects [DONE]
+[2017-11-01 07:37:15.962 com.fortify.sca.metadata.BuildSession.load_() Thread-12 FINE]
+Reading primary session file [DONE]
+[2017-11-01 07:37:15.962 com.fortify.sca.metadata.BuildSession.releaseLock() Thread-12 FINE]
+Releasing lock...
+[2017-11-01 07:37:15.962 com.fortify.sca.metadata.BuildSession.releaseLock() Thread-12 FINE]
+Releasing lock [DONE]
+[2017-11-01 07:37:15.966 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-12 INFO 1451]
+Analyzing 2 source file(s)
+[2017-11-01 07:37:16.124 com.fortify.sca.util.LicenseUtil.logLicenseInfo() Thread-12 INFO]
+License Metadata:
+  Created On: 2017-01-12 04:44:07.0
+  License Description: Internal Use Only  2017-12-31
+  License ID: L80361312-1e06-4463-953b-0b02d80327b2
+  Subscription ID: S4675f783-76c3-43be-a962-9d96ccecda42
+  owner: HPE - Internal
+[2017-11-01 07:37:16.160 com.fortify.sca.backend.BackEnd.loadNsts() Thread-12 INFO]
+Loading nametable with 1 compilation units
+[2017-11-01 07:37:16.164 com.fortify.sca.nst.util.memory.NSTFileLoader.getNode() Thread-16 FINE]
+Parsing: EightBall.java.nst
+[2017-11-01 07:37:16.537 com.fortify.sca.util.Parallelizer.reportProgress() Thread-16 INFO]
+Loaded nametable with 1 compilation units
+[2017-11-01 07:37:19.233 com.fortify.sca.rules.RuleUtils.loadRulesFromStream() Thread-12 FINE]
+Rule Load: rulepack Fortify Secure Coding Rules, Core, Android / RUL13093 / 2017.3.0.0008
+[2017-11-01 07:37:19.597 com.fortify.sca.rules.RuleUtils.loadRulesFromStream() Thread-12 FINE]
+Rule Load: rulepack Fortify Secure Coding Rules, Core, Annotations / RUL13078 / 2017.3.0.0008
+[2017-11-01 07:37:22.013 com.fortify.sca.rules.RuleUtils.loadRulesFromStream() Thread-12 FINE]
+Rule Load: rulepack Fortify Secure Coding Rules, Core, Java / RUL13003 / 2017.3.0.0008
+[2017-11-01 07:37:22.615 com.fortify.sca.rules.RuleUtils.loadRulesFromStream() Thread-12 FINE]
+Rule Load: rulepack Fortify Secure Coding Rules, Core, Scala / RUL13003 / 2017.3.0.0008
+[2017-11-01 07:37:23.180 com.fortify.sca.rules.RuleUtils.loadRulesFromStream() Thread-12 FINE]
+Rule Load: rulepack Fortify Secure Coding Rules, Extended, Configuration / RUL13005 / 2017.3.0.0008
+[2017-11-01 07:37:23.200 com.fortify.sca.rules.RuleUtils.loadRulesFromStream() Thread-12 FINE]
+Rule Load: rulepack Fortify Secure Coding Rules, Extended, Content / RUL13067 / 2017.3.0.0008
+[2017-11-01 07:37:25.944 com.fortify.sca.rules.RuleUtils.loadRulesFromStream() Thread-12 FINE]
+Rule Load: rulepack Fortify Secure Coding Rules, Extended, Java / RUL13007 / 2017.3.0.0008
+[2017-11-01 07:37:26.361 com.fortify.sca.rules.RuleUtils.loadRulesFromStream() Thread-12 FINE]
+Rule Load: rulepack Fortify Secure Coding Rules, Extended, JSP / RUL13026 / 2017.3.0.0008
+[2017-11-01 07:37:28.963 com.fortify.sca.analyzer.callgraph.CallGraphBuilder.complete() Thread-12 INFO]
+Completing call graph
+[2017-11-01 07:37:29.403 com.fortify.sca.analyzer.callgraph.J2EEIndirectCGBuilder.getEJbClasses() Thread-40 FINE]
+Detected EJB class mapping: {}
+[2017-11-01 07:37:29.404 com.fortify.sca.nst.transformer.ELTransformingVisitorAdapter.init() Thread-40 FINE]
+unable to find type javax.servlet.http.HttpSession
+[2017-11-01 07:37:29.530 com.fortify.sca.analyzer.constants.ConstantPropagator.initialize() Thread-12 INFO]
+Constant Propagation: starting initialization of 1 compilation units
+[2017-11-01 07:37:29.533 com.fortify.sca.util.Parallelizer.reportProgress() Thread-47 INFO]
+Constant Propagation: initialized 1 compilation units
+[2017-11-01 07:37:29.535 com.fortify.sca.analyzer.constants.ConstantPropagator.populateWorkList() Thread-12 INFO]
+Constant Propagation: generating worklist for 3 functions
+[2017-11-01 07:37:29.535 com.fortify.sca.analyzer.constants.ConstantPropagator.localPass() Thread-12 INFO]
+Constant Propagation: initial constants for 3 functions
+[2017-11-01 07:37:29.543 com.fortify.sca.analyzer.constants.ConstantPropagator.fixedPointPasses() Thread-12 INFO]
+Constant Propagation: propagating constant parameters for 3 functions
+[2017-11-01 07:37:29.544 com.fortify.sca.util.Parallelizer.reportProgress() Thread-54 INFO]
+Constant Propagation: propagated constant parameters for 1 functions
+[2017-11-01 07:37:29.545 com.fortify.sca.util.Parallelizer.reportProgress() Thread-53 INFO]
+Constant Propagation: propagated constant parameters for 2 functions
+[2017-11-01 07:37:29.545 com.fortify.sca.util.Parallelizer.reportProgress() Thread-52 INFO]
+Constant Propagation: propagated constant parameters for 3 functions
+[2017-11-01 07:37:29.545 com.fortify.sca.util.Parallelizer.reportProgress() Thread-51 INFO]
+Constant Propagation: propagated constant parameters for 4 functions
+[2017-11-01 07:37:29.546 com.fortify.sca.analyzer.constants.ConstantPropagator.finalPasses() Thread-12 INFO]
+Constant Propagation: propagating unresolved constants for 3 functions
+[2017-11-01 07:37:29.547 com.fortify.sca.util.Parallelizer.reportProgress() Thread-56 INFO]
+Constant Propagation: propagated unresolved constants for 1 functions
+[2017-11-01 07:37:29.548 com.fortify.sca.util.Parallelizer.reportProgress() Thread-57 INFO]
+Constant Propagation: propagated unresolved constants for 2 functions
+[2017-11-01 07:37:29.548 com.fortify.sca.util.Parallelizer.reportProgress() Thread-55 INFO]
+Constant Propagation: propagated unresolved constants for 3 functions
+[2017-11-01 07:37:29.548 com.fortify.sca.util.Parallelizer.reportProgress() Thread-58 INFO]
+Constant Propagation: propagated unresolved constants for 4 functions
+[2017-11-01 07:37:29.549 com.fortify.sca.analyzer.constants.ConstantPropagator.complete() Thread-12 INFO]
+Constant Propagation: completed
+[2017-11-01 07:37:30.467 com.fortify.sca.analyzer.callgraph.JavaWSCGBuilder.markJavaWebServices() Thread-12 FINE]
+Could not find java.rmi.Remote
+[2017-11-01 07:37:31.066 com.fortify.sca.analyzer.configfile.ConfigFileAnalyzer.analyzeXmlFile() Thread-75 FINE]
+Ignoring reporton for nodeset match in rule: B8F49F56-4CDE-4D62-926B-C8E95C5C9593
+[2017-11-01 07:37:31.113 com.fortify.sca.backend.BackEnd.doWebFormAnalysis() Thread-12 INFO 1455]
+Configuration analysis complete
+[2017-11-01 07:37:32.720 com.fortify.sca.analyzer.structural.StructuralAnalyzer._visit() Thread-79 FINE]
+Structural analyzer found issue at /Users/mlacasse/SandBox/EightBall/src/main/java/com/hpe/security/fortify/samples/EightBall.java:6:16
+[2017-11-01 07:37:32.756 com.fortify.sca.analyzer.structural.StructuralAnalyzer._visit() Thread-79 FINE]
+Structural analyzer found issue at /Users/mlacasse/SandBox/EightBall/src/main/java/com/hpe/security/fortify/samples/EightBall.java:12:15
+[2017-11-01 07:37:32.758 com.fortify.sca.analyzer.structural.StructuralAnalyzer._visit() Thread-79 FINE]
+Structural analyzer found issue at /Users/mlacasse/SandBox/EightBall/src/main/java/com/hpe/security/fortify/samples/EightBall.java:12:15
+[2017-11-01 07:37:32.778 com.fortify.sca.analyzer.structural.StructuralAnalyzer._visit() Thread-79 FINE]
+Structural analyzer found issue at /Users/mlacasse/SandBox/EightBall/src/main/java/com/hpe/security/fortify/samples/EightBall.java:15:14
+[2017-11-01 07:37:32.780 com.fortify.sca.analyzer.structural.StructuralAnalyzer._visit() Thread-79 FINE]
+Structural analyzer found issue at /Users/mlacasse/SandBox/EightBall/src/main/java/com/hpe/security/fortify/samples/EightBall.java:15:14
+[2017-11-01 07:37:32.825 com.fortify.sca.analyzer.stateful.StatefulAnalyzer.<clinit>() Thread-12 FINE]
+Path tracking mode: All
+[2017-11-01 07:37:33.046 com.fortify.sca.analyzer.stateful.StatefulAnalyzerThread.mkVulnerability() Thread-84 FINE]
+vuln creation - (1) - com.hpe.security.fortify.samples.EightBall.main
+[2017-11-01 07:37:33.057 com.fortify.scasat.zChaff.sat.ZExternal.setup() Thread-84 FINE]
+Starting zChaffExt /Applications/HPE_Security/Fortify_SCA_and_Apps_17.10/Core/private-bin/sca/SCASolve
+[2017-11-01 07:37:33.125 com.fortify.sca.analyzer.stateful.StatefulAnalyzerThread.mkVulnerability() Thread-84 FINE]
+vuln creation - (1) - com.hpe.security.fortify.samples.EightBall.main
+[2017-11-01 07:37:33.137 com.fortify.sca.analyzer.vuln.StatefulMetaVulnerability.addSubvuln() Thread-12 FINE]
+feasible /Users/mlacasse/SandBox/EightBall/src/main/java/com/hpe/security/fortify/samples/EightBall.java:14:3
+[2017-11-01 07:37:33.137 com.fortify.sca.analyzer.vuln.StatefulMetaVulnerability.addSubvuln() Thread-12 FINE]
+feasible /Users/mlacasse/SandBox/EightBall/src/main/java/com/hpe/security/fortify/samples/EightBall.java:14:3
+[2017-11-01 07:37:33.252 com.fortify.sca.analyzer.taint.FunctionAnalyzer.run() Thread-89 FINE]
+Taint.FunctionAnalyzer visit: com.hpe.security.fortify.samples.EightBall.<static>(0) (maxFieldDepth: 5, maxIndirectionLevel: 4, allowArrayIndices: true)
+[2017-11-01 07:37:33.327 com.fortify.sca.analyzer.taint.FunctionAnalyzer.run() Thread-89 FINE]
+Taint.FunctionAnalyzer: com.hpe.security.fortify.samples.EightBall.<static>(0)
+MaxFilterIn:  -1
+MaxFilterOut: -1
+[2017-11-01 07:37:33.338 com.fortify.sca.analyzer.taint.FunctionAnalyzer.run() Thread-91 FINE]
+Taint.FunctionAnalyzer visit: com.hpe.security.fortify.samples.EightBall.EightBall(1) (maxFieldDepth: 5, maxIndirectionLevel: 4, allowArrayIndices: true)
+[2017-11-01 07:37:33.373 com.fortify.sca.analyzer.taint.FunctionAnalyzer.run() Thread-91 FINE]
+Taint.FunctionAnalyzer: com.hpe.security.fortify.samples.EightBall.EightBall(1)
+MaxFilterIn:  -1
+MaxFilterOut: -1
+[2017-11-01 07:37:33.382 com.fortify.sca.analyzer.taint.FunctionAnalyzer.run() Thread-91 FINE]
+Taint.FunctionAnalyzer visit: com.hpe.security.fortify.samples.EightBall.main(1) (maxFieldDepth: 5, maxIndirectionLevel: 4, allowArrayIndices: true)
+[2017-11-01 07:37:33.564 com.fortify.sca.analyzer.taint.FunctionAnalyzer.run() Thread-91 FINE]
+Taint.FunctionAnalyzer: com.hpe.security.fortify.samples.EightBall.main(1)
+MaxFilterIn:  4
+MaxFilterOut: 4
+[2017-11-01 07:37:33.621 com.fortify.sca.analyzer.aspdotnet.ExternalEntryMapper.addASPDotnetExternalEntries() Thread-12 FINE]
+Adding ASP .NET external entries
+[2017-11-01 07:37:33.622 com.fortify.sca.backend.BackEnd.doPhaseFour() Thread-12 FINE]
+Analysis found 10 vulns
+[2017-11-01 07:37:33.682 com.fortify.sca.rules.script.jsVulnerability.remove() Thread-12 FINE]
+rulescript render_esapi_results removing vulnerability AFB0FB63A96A0A48BCFCC30A9207DCA7
+[2017-11-01 07:37:33.683 com.fortify.sca.rules.script.jsVulnerability.remove() Thread-12 FINE]
+rulescript render_esapi_results removing vulnerability 41AE29A01E15CB355F499B5FACB745F4
+[2017-11-01 07:37:33.820 com.fortify.sca.backend.BackEnd.runResultFilters() Thread-12 FINE]
+Filtered 0 results
+[2017-11-01 07:37:33.833 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-12 FINE]
+Lines of Code: 9
+[2017-11-01 07:37:33.836 com.fortify.sca.renderer.AbstractRenderer.stats() Thread-12 INFO 1458]
+Rendering 8 results
+[2017-11-01 07:37:33.837 com.fortify.sca.renderer.AbstractRenderer.stats() Thread-12 FINE]
+Vulnerability Totals:
+controlflow: 1
+semantic: 1
+dataflow: 2
+configuration: 1
+structural: 3
+
+[2017-11-01 07:37:38.791 com.fortify.sca.renderer.html.MetaTableRenderer.renderSourceFile() Thread-12 FINE]
+Starting metatable rendering for: /Users/mlacasse/SandBox/EightBall/src/main/java/com/hpe/security/fortify/samples/EightBall.java
+[2017-11-01 07:37:38.801 com.fortify.sca.renderer.html.MetaTableRenderer.renderSourceFile() Thread-12 FINE]
+Completed metatable rendering for: /Users/mlacasse/SandBox/EightBall/src/main/java/com/hpe/security/fortify/samples/EightBall.java
+[2017-11-01 07:37:38.801 com.fortify.sca.renderer.html.MetaTableRenderer.renderSourceFile() Thread-12 FINE]
+Starting metatable rendering for: /Users/mlacasse/SandBox/EightBall/pom.xml
+[2017-11-01 07:37:38.803 com.fortify.sca.renderer.html.MetaTableRenderer.renderSourceFile() Thread-12 FINE]
+Completed metatable rendering for: /Users/mlacasse/SandBox/EightBall/pom.xml
+[2017-11-01 07:37:39.055 com.fortify.sca.Main.showAnalysisTime() Thread-12 INFO 1459]
+Analysis completed in 00:17
+[2017-11-01 07:37:39.092 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-12 INFO]
+Timers: (elapsed 00:23)
+AliasAnalyzer.FixedPoint:                    00:00 [5]           00:00 [5]
+AliasAnalyzer.FlowSensitive:                 00:00 [1]           00:00 [7]
+AliasAnalyzer.Liveness:                      00:00 [4]           00:00 [4]
+BackEnd.Analyze:                             00:00 [35]          00:17 [17698]
+BackEnd.Crosstier:                           00:00 [3]           00:00 [3]
+CA.visit:                                    00:00 [261]         00:00 [293]
+CallGraphBuilder:                            00:00 [115]         00:00 [131]
+CallGraphBuilder.ReachingTypes:              00:00 [47]          00:00 [100]
+CallGraphBuilder.getAllTargetsForCall:       00:00 [6]           00:00 [29]
+ConfigFileAnalyzer:                          00:00 [3]           00:00 [641]
+ConstantPropagator:                          00:00 [22]          00:00 [22]
+ContentAnalyzer:                             00:00 [2]           00:00 [3]
+ControlFlow.PathChecker:                     00:00 [4]           00:00 [29]
+ControlFlow.PathChecker.BuildConstraints:    00:00 [13]          00:00 [13]
+ControlFlow.PathChecker.ConditionPropagator: 00:00 [6]           00:00 [6]
+ControlFlow.PathChecker.ConvertToCnf:        00:00 [1]           00:00 [1]
+ControlFlow.PathChecker.SendCnfToSolver:     00:00 [4]           00:00 [4]
+ControlFlow.PathChecker.solve:               00:00 [1]           00:00 [1]
+Controlflow.buildResults:                    00:00 [5]           00:00 [5]
+ControlflowAnalyzer:                         00:00 [307]         00:00 [312]
+EntryPointAnalyzer:                          00:00 [0]           00:00 [29]
+InferredConstantResolution:                  00:00 [5]           00:00 [5]
+ModelData.WriteToDatastore:                  00:00 [220]         00:00 [220]
+NSTReader.parse:                             00:00 [286]         00:00 [286]
+NullPointerAnalyzer:                         00:00 [1]           00:00 [23]
+PHASE_FOUR:                                  00:00 [18]          00:00 [202]
+PHASE_ONE_TWO:                               00:00 [40]          00:03 [3136]
+PHASE_ZERO:                                  00:00 [694]         00:14 [14325]
+Render.FPR:                                  00:00 [309]         00:05 [5213]
+Render.FVDL:                                 00:00 [311]         00:00 [490]
+Render.FVDL.EngineData:                      00:00 [37]          00:00 [37]
+Render.FVDL.ProgramData:                     00:00 [14]          00:00 [14]
+Render.FVDL.Vulns:                           00:00 [128]         00:00 [128]
+Render.MetaTable.SourceFiles:                00:00 [13]          00:00 [13]
+Render.Run:                                  00:00 [6]           00:05 [5219]
+RuleLoad:                                    00:01 [1884]        00:12 [12092]
+RuleLoad.loadCastor:                         00:08 [8675]        00:08 [8675]
+RuleScript.RunMidAnalysis:                   00:00 [2]           00:00 [197]
+RuleScript.RunPostAnalysis:                  00:00 [4]           00:00 [181]
+RuleScriptInterpreter.RunScripts:            00:00 [421]         00:01 [1533]
+RuleSet.getRulesForFunction:                 00:03 [3332]        00:03 [3332]
+RuleSet.isCovered:                           00:01 [1235]        00:01 [1235]
+Script.09419C3D-9BC0-4E7B-8E17-D6AD44A378F3: 00:00 [4]           00:00 [4]
+Script.0D58F858-6796-44EC-90C2-E0498B15E7FC: 00:00 [4]           00:00 [4]
+Script.0E0FD33C-AAD5-45EB-A0D1-D17FF96B4212: 00:00 [3]           00:00 [3]
+Script.101D2168-89EF-4102-8CFA-5ED82CF37A30: 00:00 [2]           00:00 [2]
+Script.1162F279-0A74-4B38-AF5F-11747C74107D: 00:00 [4]           00:00 [4]
+Script.196C1E73-8993-4322-B242-FFDF94718CDA: 00:00 [1]           00:00 [1]
+Script.260C061D-F3F9-42FB-A118-5A2AD5FA84A4: 00:00 [8]           00:00 [8]
+Script.2A95FAB4-5070-45C9-A1CB-DCBAA7F02020: 00:00 [4]           00:00 [4]
+Script.2B42292E-4694-465E-BC12-40FB19E5FED6: 00:00 [2]           00:00 [2]
+Script.2D73FEBA-505D-425F-B538-8DE7EDCD06EE: 00:00 [6]           00:00 [6]
+Script.3239454B-DD39-4174-915C-48DEFCAF5D90: 00:00 [5]           00:00 [5]
+Script.3390C469-E9A2-46F9-9323-469AD3096AE7: 00:00 [4]           00:00 [4]
+Script.3FF9D966-D1C3-481C-87EB-52675531635D: 00:00 [5]           00:00 [5]
+Script.436A9149-5962-494C-BF87-0EA6143E3BAE: 00:00 [3]           00:00 [3]
+Script.475B2085-4E81-46D1-A614-758992F8977F: 00:00 [6]           00:00 [6]
+Script.5C13813D-CDA8-43AB-88DE-8E802CDB2F8A: 00:00 [4]           00:00 [4]
+Script.5D353D96-765C-469D-887F-EE306F52F6D6: 00:00 [5]           00:00 [5]
+Script.6069D405-0D29-4216-8B1A-D76B670651FE: 00:00 [7]           00:00 [7]
+Script.62768569-FF0A-4F87-B200-F7C9B44CCF07: 00:00 [2]           00:00 [2]
+Script.651F4616-86B6-4A2D-B61F-6711CE645E51: 00:00 [4]           00:00 [4]
+Script.651F4616-86B6-4A2D-B61F-6881CE645E52: 00:00 [4]           00:00 [4]
+Script.6C3BD6EB-FB68-41F8-806C-480AA634B38C: 00:00 [10]          00:00 [10]
+Script.708A441A-21A5-4946-887D-E619B559DF70: 00:00 [3]           00:00 [3]
+Script.7A9479E8-1C06-4A99-8A1F-2DB4339372E3: 00:00 [5]           00:00 [5]
+Script.7EFD0691-DA29-4BF5-9265-3B0925F401D9: 00:00 [3]           00:00 [3]
+Script.80F5FD42-88D9-4484-B33B-87C53FC350BA: 00:00 [3]           00:00 [3]
+Script.83F6E487-70ED-4935-8B68-9E2ED3583F42: 00:00 [2]           00:00 [2]
+Script.8C0E5633-9A58-4D8A-8D86-AB0E56CE3518: 00:00 [2]           00:00 [2]
+Script.8CD539E5-5D50-43FC-B42D-3335931AEF4B: 00:00 [2]           00:00 [2]
+Script.8CE08FCB-BFC3-498A-8BB8-478876AB7CE0: 00:00 [2]           00:00 [2]
+Script.926103B5-C15D-4B75-BBFE-81F2C76FD94C: 00:00 [3]           00:00 [3]
+Script.9685FAD3-DC05-4ED5-ACC4-2703ABCD1494: 00:00 [2]           00:00 [2]
+Script.968D7977-998A-463C-B13D-ABFA51C3FE69: 00:00 [3]           00:00 [3]
+Script.9863A2AA-9F8F-46DE-87EA-71F88DC10F33: 00:00 [1]           00:00 [1]
+Script.<builtin>:                            00:00 [209]         00:00 [209]
+Script.A2E2B829-1849-4926-8238-C65C10BEA71D: 00:00 [86]          00:00 [86]
+Script.Android_Certificate_Pinning_Cleaning_Script:00:00 [3]           00:00 [3]
+Script.Android_SSRF_cleaning_script:         00:00 [1]           00:00 [1]
+Script.Android_cleaning_script:              00:00 [7]           00:00 [7]
+Script.BE4C87FF-0F69-4BCE-8A4E-B7C5C6B76524: 00:00 [2]           00:00 [2]
+Script.C0361CD2-AC7B-4C2D-9C40-2F9B36743671: 00:00 [4]           00:00 [4]
+Script.C24B9361-E794-4B07-ACDF-0799F72175CF: 00:00 [1]           00:00 [1]
+Script.C9DF7CB8-9949-4687-8E2C-D29C97800A1E: 00:00 [6]           00:00 [6]
+Script.D534F2AC-B993-479E-9032-DFEA8CBCFDF2: 00:00 [3]           00:00 [3]
+Script.D6937655-D8A5-4963-8AC0-0BF9105299C8: 00:00 [4]           00:00 [4]
+Script.D732C017-EFE7-4318-8351-12C9CF280AB0: 00:00 [1]           00:00 [1]
+Script.D9687AA6-AC13-49E6-A28E-6B3C0D16FFAD: 00:00 [6]           00:00 [6]
+Script.DA628366-APF1-4D37-879F-7B8F53FF24C1: 00:00 [5]           00:00 [5]
+Script.DA628366-FBE1-4D37-879F-7B8F53FF24C1: 00:00 [3]           00:00 [3]
+Script.EF56638C-726C-4A6F-BF57-2CF912F8E031: 00:00 [4]           00:00 [4]
+Script.F11B4967-48B2-49B2-9B91-C6431E4E4B1B: 00:00 [3]           00:00 [3]
+Script.F84704B7-D0BD-4B72-85AA-52BA08907095: 00:00 [3]           00:00 [3]
+Script.FilterEncodedIssues:                  00:00 [6]           00:00 [6]
+Script.GWT_labeling:                         00:00 [2]           00:00 [2]
+Script.JavaJMX:                              00:00 [2]           00:00 [2]
+Script.LabelingXMLMappedClasses:             00:00 [7]           00:00 [7]
+Script.Portlet_Cleaning_script:              00:00 [2]           00:00 [2]
+Script.Spring3Labeling:                      00:00 [9]           00:00 [9]
+Script.Spring_EL_resolution:                 00:00 [11]          00:00 [11]
+Script.Struts1_Cleaning_script:              00:00 [2]           00:00 [2]
+Script.Struts2_DMI_Cleaning_script:          00:00 [2]           00:00 [2]
+Script.XStreamLabel:                         00:00 [4]           00:00 [4]
+Script.XStream_cleaning_script:              00:00 [3]           00:00 [3]
+Script.XXE_Cleaning_script:                  00:00 [7]           00:00 [7]
+Script.XXE_Duplicate_Cleaning:               00:00 [3]           00:00 [3]
+Script.addAxisWSDDWebServiceEntryPoints:     00:00 [9]           00:00 [9]
+Script.addAxisWebServiceEntryPoints:         00:00 [13]          00:00 [13]
+Script.addDefaultBlazeDSEntryPoints:         00:00 [7]           00:00 [7]
+Script.addLabellToFieldUtil:                 00:00 [4]           00:00 [4]
+Script.addSpringBlazeDSEntryPoints:          00:00 [3]           00:00 [3]
+Script.adf:                                  00:00 [10]          00:00 [10]
+Script.android:                              00:00 [12]          00:00 [12]
+Script.android_callbacks:                    00:00 [5]           00:00 [5]
+Script.android_js_bridge:                    00:00 [2]           00:00 [2]
+Script.android_labels:                       00:00 [4]           00:00 [4]
+Script.android_lib:                          00:00 [28]          00:00 [28]
+Script.android_map_or:                       00:00 [21]          00:00 [21]
+Script.android_optional_permissions_map:     00:00 [2]           00:00 [2]
+Script.android_permissions_map:              00:00 [59]          00:00 [59]
+Script.android_permissions_map_extra:        00:00 [12]          00:00 [12]
+Script.android_permissions_map_fortify:      00:00 [2]           00:00 [2]
+Script.android_permissions_or_simple:        00:00 [3]           00:00 [3]
+Script.android_persist:                      00:00 [1]           00:00 [1]
+Script.android_privilegewarnings:            00:00 [8]           00:00 [8]
+Script.android_protected_actions:            00:00 [1]           00:00 [1]
+Script.android_specific_vulnerabilities:     00:00 [2]           00:00 [2]
+Script.android_standard_activity_actions:    00:00 [1]           00:00 [1]
+Script.android_standard_receiver_actions:    00:00 [1]           00:00 [1]
+Script.androidprivilegeperms:                00:00 [2]           00:00 [2]
+Script.cert_java_secure_coding_rules_cleanup:00:00 [5]           00:00 [5]
+Script.checkApplicationPermissions:          00:00 [2]           00:00 [2]
+Script.clean_struts_mass_assignment:         00:00 [2]           00:00 [2]
+Script.csr_library:                          00:00 [50]          00:00 [50]
+Script.dwr:                                  00:00 [8]           00:00 [8]
+Script.faces_config:                         00:00 [4]           00:00 [4]
+Script.filter_html_comment_results:          00:00 [5]           00:00 [5]
+Script.fix_bug12831:                         00:00 [1]           00:00 [1]
+Script.fix_bug23151:                         00:00 [6]           00:00 [6]
+Script.hibernate:                            00:00 [5]           00:00 [5]
+Script.hibernateLabeling:                    00:00 [2]           00:00 [2]
+Script.init:                                 00:00 [80]          00:00 [80]
+Script.init_midAnalysisScripts:              00:00 [1]           00:00 [1]
+Script.init_postAnalysisScripts:             00:00 [1]           00:00 [1]
+Script.init_preAnalysisScripts:              00:00 [3]           00:00 [3]
+Script.input_csr:                            00:00 [9]           00:00 [9]
+Script.java_scripting_library:               00:00 [19]          00:00 [19]
+Script.jsf:                                  00:00 [14]          00:00 [14]
+Script.jsf_persist:                          00:00 [2]           00:00 [2]
+Script.jsf_url_mapping:                      00:00 [16]          00:00 [16]
+Script.label_spring_commandclasses:          00:00 [3]           00:00 [3]
+Script.logger:                               00:00 [2]           00:00 [2]
+Script.managed_beans_config:                 00:00 [26]          00:00 [26]
+Script.mass_assignment_trace:                00:00 [3]           00:00 [3]
+Script.midScriptUtil:                        00:00 [10]          00:00 [10]
+Script.mybatis_mapper_label:                 00:00 [6]           00:00 [6]
+Script.oa_framework:                         00:00 [39]          00:00 [39]
+Script.oa_framework_persist:                 00:00 [2]           00:00 [2]
+Script.oa_framework_util:                    00:00 [4]           00:00 [4]
+Script.queryMetaTable:                       00:00 [4]           00:00 [4]
+Script.recursiveLabeling:                    00:00 [4]           00:00 [4]
+Script.render_esapi_results:                 00:00 [11]          00:00 [11]
+Script.resources/rulescript_init.js:         00:00 [164]         00:00 [164]
+Script.rest_mass_assignment:                 00:00 [4]           00:00 [4]
+Script.result_filtering_script:              00:00 [6]           00:00 [6]
+Script.scala_xxe_cleaning_script:            00:00 [5]           00:00 [5]
+Script.scripting_library:                    00:00 [43]          00:00 [43]
+Script.securitymanager_bypass_ifjni_present: 00:00 [9]           00:00 [9]
+Script.spring:                               00:00 [30]          00:00 [30]
+Script.springRFD:                            00:00 [3]           00:00 [3]
+Script.springRFDPost:                        00:00 [4]           00:00 [4]
+Script.spring_boot_script:                   00:00 [4]           00:00 [4]
+Script.spring_csr:                           00:00 [4]           00:00 [4]
+Script.spring_mass_assignment:               00:00 [6]           00:00 [6]
+Script.spring_requestmapping_url:            00:00 [4]           00:00 [4]
+Script.spring_validation:                    00:00 [14]          00:00 [14]
+Script.storeObjectsForMidScripts:            00:00 [1]           00:00 [1]
+Script.struts1:                              00:00 [4]           00:00 [4]
+Script.struts1_config:                       00:00 [6]           00:00 [6]
+Script.struts1_config_helper:                00:00 [4]           00:00 [4]
+Script.struts1_csr:                          00:00 [2]           00:00 [2]
+Script.struts1_persist_validated_fields:     00:00 [1]           00:00 [1]
+Script.struts1_util:                         00:00 [2]           00:00 [2]
+Script.struts1_validated_fields:             00:00 [3]           00:00 [3]
+Script.struts2:                              00:00 [9]           00:00 [9]
+Script.struts2_CVE-2017-9791:                00:00 [2]           00:00 [2]
+Script.struts2_OGNL_resolution:              00:00 [7]           00:00 [7]
+Script.struts2_config:                       00:00 [4]           00:00 [4]
+Script.struts2_csr:                          00:00 [1]           00:00 [1]
+Script.struts2_url_mapping:                  00:00 [8]           00:00 [8]
+Script.struts2_util:                         00:00 [1]           00:00 [1]
+Script.struts2_validated_fields:             00:00 [5]           00:00 [5]
+Script.struts2_validators:                   00:00 [7]           00:00 [7]
+Script.struts_mass_assignment:               00:00 [5]           00:00 [5]
+Script.util:                                 00:00 [12]          00:00 [12]
+SemanticAnalyzer:                            00:00 [3]           00:00 [97]
+Sourceanalyzer.Run:                          00:00 [173]         00:23 [23090]
+SsiGen.Generic.run:                          00:00 [59]          00:00 [59]
+SsiGen.StringFragment.run:                   00:00 [2]           00:00 [2]
+SsiGen.Taint SSI Builder.run:                00:00 [58]          00:00 [60]
+Structural.Complete:                         00:00 [6]           00:00 [10]
+Structural.FunMeta:                          00:01 [1567]        00:01 [1567]
+StructuralAnalyzer:                          00:00 [5]           00:01 [1582]
+Taint.FA.Builder:                            00:00 [154]         00:00 [161]
+Taint.FA.visit:                              00:00 [34]          00:00 [37]
+Taint.FunctionAnalyzer.filter:               00:00 [3]           00:00 [3]
+Taint.FunctionAnalyzer.run:                  00:00 [61]          00:00 [342]
+Taint.IssueCalculator.calculateIssues:       00:00 [25]          00:00 [25]
+TaintAnalyzer:                               00:00 [384]         00:00 [409]
+ThreadPool.CallGraphBuilder:                 00:00 [131]         00:00 [131]
+ThreadPool.CallTargets:                      00:00 [3]           00:00 [3]
+ThreadPool.CommentAnalyzer:                  00:00 [4]           00:00 [4]
+ThreadPool.ConfigFileAnalyzerXml:            00:00 [638]         00:00 [638]
+ThreadPool.ContentAnalyzer:                  00:00 [1]           00:00 [1]
+ThreadPool.EntryPointAnalyzer:               00:00 [29]          00:00 [29]
+ThreadPool.FastPointerAnalysis:              00:00 [6]           00:00 [6]
+ThreadPool.FunctionComplexityMetrics:        00:00 [3]           00:00 [3]
+ThreadPool.FunctionModel:                    00:00 [83]          00:00 [83]
+ThreadPool.FunctionReset:                    00:00 [902]         00:00 [902]
+ThreadPool.LexerWork:                        00:00 [38]          00:00 [38]
+ThreadPool.NstTransformer:                   00:00 [48]          00:00 [48]
+ThreadPool.NullPointerAnalyzer:              00:00 [22]          00:00 [22]
+ThreadPool.ReachingTypes:                    00:00 [101]         00:00 [101]
+ThreadPool.SemanticAnalyzer:                 00:00 [94]          00:00 [94]
+ThreadPool.StructuralAnalyzer:               00:01 [1567]        00:01 [1567]
+
+Counters:
+CallGraphBuilder.getAllTargetsForCall: 13
+CallGraphBuilder.visits: 3
+ControlFlow.BasicBlockVisits: 18
+ControlFlow.spawningBindingMaps: 1
+ControlflowAnalyzer.QueuedTasks: 0
+ControlflowAnalyzer.RunningTasks: 0
+GeneratedFunctionProfile.passthroughs: 0
+GeneratedFunctionProfile.sinks: 1
+GeneratedFunctionProfile.sinksDepth: 1
+GeneratedFunctionProfile.sources: 0
+NST Deserializations: 2
+NST Serializations: 14
+NullPtr.BasicBlockVisits: 18
+PathChecker.calls.Vuln: 2
+PhaseOneUniverse: 3
+SemanticAnalyzer.issues: 1
+SemanticFunctionVisits: 3
+Solver.ZC.sat: 2
+Solver.ZE.startCall: 11
+StatefulAnalyzer.functionVisits: 3
+StatefulAnalyzer.issues: 1
+StatefulVulnLowLevel: 4
+StructuralAnalyzer.funMetaVisits: 3
+StructuralAnalyzer.issues: 3
+StructuralAnalyzer.typeMetaVisits: 118
+Taint.FunctionAnalyzer.run: 3
+Taint.IssueCalculator.expandDataflows: 17
+Taint.IssueCalculator.processRoot: 17
+Taint.Model.roots: 17
+Taint.issueCount: 2
+Taint.issuePaths: 3
+Taint.terminalPairs: 15
+Taint.writeIssueData: 1
+Taint.writeProfileData: 1
+Taint.writeStructuralMatchCache: 3
+TaintAnalyzer.QueuedTasks: 0
+TaintAnalyzer.RunningTasks: 0
+NameTable.types: 118
+NameTable.typesByName: 118
+NameTable.funs: 872
+NameTable.storage: 131
+
+Heap: [free:] 410,182,712 [max:] 5,726,797,824 [total:] 1,322,254,336
+Live NST: [VarDecl:] 0 [FunDecl:] 3
+NST Serializer:  queued: 0  pinned: 0
+Task information
+  Completed count:     22
+  Completed time (ms): 2,375
+Longest tasks (ms):
+1,489 : [StructuralAnalyzer]: com~hpe~security~fortify~samples~EightBall~~<static>~S~
+191 : [TaintAnalyzer]: com~hpe~security~fortify~samples~EightBall~~main~S~?Ljava~lang~String^
+169 : [ControlflowAnalyzer]: com~hpe~security~fortify~samples~EightBall~~main~S~?Ljava~lang~String^
+130 : [TaintAnalyzer]: com~hpe~security~fortify~samples~EightBall~~<static>~S~
+125 : [ControlflowAnalyzer]: com~hpe~security~fortify~samples~EightBall~~<static>~S~
+67 : [StructuralAnalyzer]: com~hpe~security~fortify~samples~EightBall~~main~S~?Ljava~lang~String^
+63 : [SemanticAnalyzer]: com~hpe~security~fortify~samples~EightBall~~main~S~?Ljava~lang~String^
+45 : [TaintAnalyzer]: com~hpe~security~fortify~samples~EightBall~~init^~Lcom~hpe~security~fortify~samples~EightBall^
+22 : [EntryPointAnalyzer]: com~hpe~security~fortify~samples~EightBall~~main~S~?Ljava~lang~String^
+18 : [SemanticAnalyzer]: com~hpe~security~fortify~samples~EightBall~~init^~Lcom~hpe~security~fortify~samples~EightBall^
+12 : [SemanticAnalyzer]: com~hpe~security~fortify~samples~EightBall~~<static>~S~
+12 : [NullPointerAnalyzer]: com~hpe~security~fortify~samples~EightBall~~main~S~?Ljava~lang~String^
+11 : [StructuralAnalyzer]: com~hpe~security~fortify~samples~EightBall~~init^~Lcom~hpe~security~fortify~samples~EightBall^
+10 : [NullPointerAnalyzer]: com~hpe~security~fortify~samples~EightBall~~<static>~S~
+5 : [ControlflowAnalyzer]: com~hpe~security~fortify~samples~EightBall~~init^~Lcom~hpe~security~fortify~samples~EightBall^
+
+MxInfo:
+ClassLoadingMXBean: 
+  LoadedClassCount: 9465
+  TotalLoadedClassCount: 9633
+  UnloadedClassCount: 168
+  Verbose: false
+CompilationMXBean: HotSpot 64-Bit Tiered Compilers
+  CompilationTimeMonitoringSupported: true
+  TotalCompilationTime: 38875
+[GarbageCollectorMXBeans]
+  GarbageCollectorMXBean: PS Scavenge
+    CollectionCount: 15
+    CollectionTime: 1117
+    LastGcInfo: GcThreadCount = 4 duration = 13 endTime = 22382 id = 15 startTime = 22369 
+    MemoryPoolNames: [PS Eden Space, PS Survivor Space]
+    Valid: true
+  GarbageCollectorMXBean: PS MarkSweep
+    CollectionCount: 4
+    CollectionTime: 1379
+    LastGcInfo: GcThreadCount = 4 duration = 449 endTime = 15506 id = 4 startTime = 15057 
+    MemoryPoolNames: [PS Eden Space, PS Survivor Space, PS Old Gen]
+    Valid: true
+MemoryMXBean: 
+  HeapMemoryUsage: init = 134217728(131072K) used = 912071624(890694K) committed = 1322254336(1291264K) max = 5726797824(5592576K)
+  NonHeapMemoryUsage: init = 2555904(2496K) used = 87724872(85668K) committed = 92798976(90624K) max = -1(-1K)
+  ObjectPendingFinalizationCount: 0
+  Verbose: false
+[MemoryPoolMXBeans]
+  MemoryPoolMXBean: Code Cache
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 22842304(22306K) committed = 23068672(22528K) max = 251658240(245760K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 22729216(22196K) committed = 23068672(22528K) max = 251658240(245760K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: Metaspace
+    MemoryManagerNames: [Metaspace Manager]
+    PeakUsage: init = 0(0K) used = 57819760(56464K) committed = 61734912(60288K) max = -1(-1K)
+    Type: Non-heap memory
+    Usage: init = 0(0K) used = 57819760(56464K) committed = 61734912(60288K) max = -1(-1K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: Compressed Class Space
+    MemoryManagerNames: [Metaspace Manager]
+    PeakUsage: init = 0(0K) used = 7178312(7010K) committed = 7995392(7808K) max = 1073741824(1048576K)
+    Type: Non-heap memory
+    Usage: init = 0(0K) used = 7178312(7010K) committed = 7995392(7808K) max = 1073741824(1048576K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: PS Eden Space
+    CollectionUsage: init = 34078720(33280K) used = 0(0K) committed = 831520768(812032K) max = 1848115200(1804800K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep, PS Scavenge]
+    PeakUsage: init = 34078720(33280K) used = 831520768(812032K) committed = 831520768(812032K) max = 2136997888(2086912K)
+    Type: Heap memory
+    Usage: init = 34078720(33280K) used = 775430312(757256K) committed = 831520768(812032K) max = 1848115200(1804800K)
+  MemoryPoolMXBean: PS Survivor Space
+    CollectionUsage: init = 5242880(5120K) used = 229376(224K) committed = 150470656(146944K) max = 150470656(146944K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep, PS Scavenge]
+    PeakUsage: init = 5242880(5120K) used = 122373328(119505K) committed = 162004992(158208K) max = 162004992(158208K)
+    Type: Heap memory
+    Usage: init = 5242880(5120K) used = 229376(224K) committed = 150470656(146944K) max = 150470656(146944K)
+  MemoryPoolMXBean: PS Old Gen
+    CollectionUsage: init = 89653248(87552K) used = 129051000(126026K) committed = 340262912(332288K) max = 4294967296(4194304K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep]
+    PeakUsage: init = 89653248(87552K) used = 377468120(368621K) committed = 460324864(449536K) max = 4294967296(4194304K)
+    Type: Heap memory
+    Usage: init = 89653248(87552K) used = 136411936(133214K) committed = 340262912(332288K) max = 4294967296(4194304K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+OperatingSystemMXBean: Mac OS X
+  Arch: x86_64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 10938441728
+  FreePhysicalMemorySize: 20471808
+  FreeSwapSpaceSize: 825229312
+  MaxFileDescriptorCount: 10240
+  OpenFileDescriptorCount: 84
+  ProcessCpuLoad: 0.6521726505962926
+  ProcessCpuTime: 62766901000
+  SystemCpuLoad: 0.7581768305549694
+  SystemLoadAverage: 3.26611328125
+  TotalPhysicalMemorySize: 8589934592
+  TotalSwapSpaceSize: 3221225472
+  Version: 10.12.6
+ThreadMXBean: 
+  CurrentThreadCpuTime: 16486968000
+  CurrentThreadUserTime: 15251871000
+  DaemonThreadCount: 10
+  ObjectMonitorUsageSupported: true
+  PeakThreadCount: 22
+  SynchronizerUsageSupported: true
+  ThreadAllocatedMemoryEnabled: true
+  ThreadAllocatedMemorySupported: true
+  ThreadCount: 12
+  TotalStartedThreadCount: 104
+  Thread 85 [process reaper]
+    ThreadCpuTime: 679000
+    ThreadUserTime: 491000
+  Thread 82 [watchdog timer]
+    ThreadCpuTime: 453000
+    ThreadUserTime: 239000
+  Thread 15 [AsynchronousNstSerializer]
+    ThreadCpuTime: 368832000
+    ThreadUserTime: 347194000
+  Thread 14 [ScanMonitor]
+    ThreadCpuTime: 99000
+    ThreadUserTime: 32000
+  Thread 13 [Timer]
+    ThreadCpuTime: 110000
+    ThreadUserTime: 47000
+  Thread 12 [sourceanalyzer]
+    ThreadCpuTime: 16490885000
+    ThreadUserTime: 15254892000
+  Thread 11 [Stream Monitor [err] ]
+    ThreadCpuTime: 747000
+    ThreadUserTime: 362000
+  Thread 10 [Stream Monitor [out] ]
+    ThreadCpuTime: 837000
+    ThreadUserTime: 452000
+  Thread 4 [Signal Dispatcher]
+    ThreadCpuTime: 54000
+    ThreadUserTime: 15000
+  Thread 3 [Finalizer]
+    ThreadCpuTime: 19664000
+    ThreadUserTime: 18734000
+  Thread 2 [Reference Handler]
+    ThreadCpuTime: 17367000
+    ThreadUserTime: 16840000
+  Thread 1 [main]
+    ThreadCpuTime: 396187000
+    ThreadUserTime: 345724000
+
